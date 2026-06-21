@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Аукцион "Оно тебе надо"</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Oswald:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="header">
+    <nav class="header__nav">
+      <a href="#">главная</a>
+      <span>◦</span>
+      <a href="#lots">лоты</a>
+      <span>◦</span>
+      <a href="#about">об аукционе</a>
+    </nav>
+    <div class="logo" aria-label="Оно тебе надо">
+      <span>ОНО</span>
+      <span>ТЕ</span>
+      <span>БЕ</span>
+      <span>НА</span>
+      <span>ДО</span>
+    </div>
+    <div class="header__contacts">
+      <a href="tel:+79991234567">+7 999 123 45 67</a><br/>
+      <a href="mailto:hello@auction.ru">hello@auction.ru</a><br/>
+      Москва, ул. Тверская, д. 1
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1 class="hero__title">
+      <span>ОНО</span>
+      <span>ТЕБЕ</span>
+      <span>НАДО</span>
+    </h1>
+    <div class="hero__bottom">
+      <p class="hero__subtitle">Аукцион уникальных вещей</p>
+      <button class="hero__cta">Участвовать</button>
+    </div>
+  </section>
+
+  <section class="lots" id="lots">
+    <h2 class="lots__heading">Лоты</h2>
+    <div class="lots__grid">
+      <article class="lot-card">
+        <div class="lot-card__bg"></div>
+        <div class="lot-card__content">
+          <h3 class="lot-card__title">Рукопись неизданного романа</h3>
+          <p class="lot-card__desc">Роман был найден в старом шкафу. Автор — неизвестный писатель начала XX века. Рукопись не издавалась более 100 лет.</p>
+        </div>
+      </article>
+      <article class="lot-card">
+        <div class="lot-card__bg"></div>
+        <div class="lot-card__content">
+          <h3 class="lot-card__title">Пластинка с неизданной записью</h3>
+          <p class="lot-card__desc">Уникальная запись концерта легендарного джазового музыканта, который не был выпущен на официальных носителях. Эксклюзив.</p>
+        </div>
+      </article>
+      <article class="lot-card">
+        <div class="lot-card__bg"></div>
+        <div class="lot-card__content">
+          <h3 class="lot-card__title">Картина малоизвестного художника</h3>
+          <p class="lot-card__desc">Картина в стиле импрессионизма, написанная в 1920-х годах. Долгое время хранилась в частной коллекции.</p>
+        </div>
+      </article>
+    </div>
+    <a href="#" class="lots__more">смотреть все лоты</a>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about__logo-wrap">
+      <div class="about__logo" aria-label="Оно тебе надо">
+        <span>ОНО</span>
+        <span>ТЕ</span>
+        <span>БЕ</span>
+        <span>НА</span>
+        <span>ДО</span>
+      </div>
+    </div>
+    <div class="about__body">
+      <h2 class="about__heading">Об аукционе</h2>
+      <div class="about__text">
+        <p>Этот аукцион — не просто торги. Мы собираем вещи, которые имеют свою историю и душу. У каждой из них есть что рассказать.</p>
+        <p>Здесь нет массовых лотов или шаблонных предметов. Мы ищем уникальное, редкое и настоящее. Наши лоты — это кусочки времени, которые мы предлагаем сохранить.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__contacts">
+      <a href="tel:+79991234567">+7 999 123 45 67</a><br/>
+      <a href="mailto:hello@auction.ru">hello@auction.ru</a><br/>
+      Москва, ул. Тверская, д. 1
+    </div>
+    <nav class="footer__nav">
+      <a href="#">главная</a>
+      <a href="#lots">лоты</a>
+      <a href="#about">об аукционе</a>
+    </nav>
+    <div class="footer__social">
+      <a href="#" class="social-icon" aria-label="Telegram">📱</a>
+      <a href="#" class="social-icon" aria-label="YouTube">▶️</a>
+      <a href="#" class="social-icon" aria-label="VK">💬</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
